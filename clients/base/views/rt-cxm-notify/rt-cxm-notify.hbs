@@ -1,0 +1,39 @@
+{{#if this.list_elem}}
+	<div id="rt-data-table">
+	<table class="table table-striped ctm">
+		<tr class="t-head">
+			<th>{{LBL_TRACK_NAME}}</th><th>{{LBL_MESSAGE}}</th><th>{{LBL_STATUS}}</th><th>{{LBL_CURRENTLY_ON}}</th><th></th><th></th>
+		</tr>
+		{{#each rt_note}}
+			<tr class="data-row">
+				<td id="tdc-{{c}}">
+					{{{namelink}}}
+				</td>
+				<td>
+					{{{message}}}
+				</td>
+				<td>
+					{{status}}
+				</td>
+				<td>
+					{{page}}
+				</td>
+				<td><a class="link-x" id="{{cid}}" name="{{name}}" data-action="pop_chat">{{btn_value}}</a></td>
+				<td><a class="link-x" id="{{cid}}" name="{{name}}" data-action="view_history">{{history_btn_value}}</a></td>
+			</tr>
+		{{/each}}
+	</table>
+	<div class="block-footer note-more">
+		<button data-action="show-more" style="float:left;" class="btn btn-link btn-invisible more">{{LBL_MORE_NOTIFICATIONS}}...</button>
+	</div>
+	</div>
+{{/if}}
+{{#if this.row_elem}}
+	<h5 class="no-data-notif no-notify">{{{ROW_LABEL}}}</h5>
+{{/if}}
+<div class="modaln">
+	<div class="spinner">
+	  <div class="dot1"></div>
+	  <div class="dot2"></div>
+	</div>
+</div>

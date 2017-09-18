@@ -1,0 +1,78 @@
+.ui-selectable-helper div {width:auto; height:auto; }
+ -dragging {z-index:9999;}
+
+/* This is new version of CSS created By FN-RT */
+table.modify tr td{
+vertical-align:top;
+}
+div.dd_container{
+padding-left:178px; width:765px;}
+div.workarea{ padding:2px 0px; float:left; margin-right:5px; }
+
+ul.draglist { 
+    position: relative;
+    width: 150px; 
+    min-height:100px;
+    background: #ffffff;
+    border: 1px solid #EAC3C3;
+    list-style: none;
+    margin:0;
+	overflow:auto;
+    padding:0;
+}
+
+ul.draglist li {
+    margin: 1px;
+    cursor: move;
+    zoom: 1;
+}
+
+ul.draglist_alt { 
+    position: relative;
+    width: 200px; 
+    list-style: none;
+    margin:0;
+    padding:0;
+    /*
+       The bottom padding provides the cushion that makes the empty 
+       list targetable.  Alternatively, we could leave the padding 
+       off by default, adding it when we detect that the list is empty.
+    */
+    padding-bottom:20px;
+}
+
+ul.draglist_alt li {
+    margin: 1px;
+    cursor: move;
+}
+/*.dd_container
+{
+	width:800px;
+	
+}*/
+
+/*li.list1 {
+    background-color: #D1E6EC;
+    border:1px solid #7EA6B2;
+}*/
+
+/*li.list2 {
+    background-color: #D8D4E2;
+   border:1px solid #6B4C86;
+}*/
+
+
+ul#topic_available, ul#topic_selected{display:block; height:100px; overflow:auto;}
+
+ul#leads_available, ul#leads_selected{display:block; height:100px; overflow:auto;}
+
+ul#contacts_available, ul#contacts_selected{display:block; height:100px; overflow:auto;}
+
+ul#cat_available, ul#cat_selected{display:block; height:150px; overflow:auto;}
+
+ul#subcat_available, ul#subcat_selected{display:block; height:200px; overflow:auto;}
+
+
+
+/**/
+

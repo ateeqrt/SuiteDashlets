@@ -1,0 +1,47 @@
+<div class="gcharts">
+{{#if this.tab_form}}
+	<div id="rtr-data-table">
+		<table class="table table-striped">
+			<tr>
+				<th>{{LBL_TRACK_NAME}}</th><th>{{LBL_WEBPAGE_VISITED}}</th><th>{{LBL_DATE_VISITED}}</th>
+				<th>{{LBL_RELATED_MODULE}}</th>
+				<th></th>
+			</tr>
+			{{#each flows}}
+				<tr class="data-row">
+					<td>
+						{{#if link}}<a class="link-x" href="{{parent_link}}">{{/if}}
+						{{name}}
+						{{#if link}}</a>{{/if}}
+					</td>
+					<td>{{webpage}}</td>
+					<td>{{date_visited}}</td>
+					<td style="text-align: -webkit-center;">{{parent_type}}</td>
+					<td><a class="link-x track_history" type="button" name="{{cookie_id_c}}" id="flowi-{{id}}">{{history_btn_value}}</a></td>
+				</tr>
+			{{/each}}
+		</table>
+	</div>
+{{/if}}
+
+{{#if this.person_form}}
+	<div>
+		<span class="back-arrow-flow pull-right" data-action="reset_main">
+			<a class="arrow-color"><i class="fa fa-arrow-circle-left back-ar"></i></a>
+		</span>
+		<h4 style="height: 18px;" class="chart-date"></h4>
+		<div class="visitor_ga_data"></div>
+		<div class="navs" style="height: 35px;">
+		<a class="btn btn-primary prev_day pull-left" style="display:none;">{{LBL_PREV_PAGE}}</a></span>
+		<a class="btn btn-primary next_day pull-right" style="display:none;margin-right:8px;">{{LBL_NEXT_PAGE}}</a></span>
+		</div>
+		<div id="chart_div"></div>
+	</div>
+{{/if}}
+<div class="modal2">
+	<div class="spinner">
+	  <div class="dot1"></div>
+	  <div class="dot2"></div>
+	</div>
+</div>
+</div>

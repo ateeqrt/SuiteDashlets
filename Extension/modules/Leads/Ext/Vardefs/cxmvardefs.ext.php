@@ -1,0 +1,61 @@
+<?php
+$dictionary['Lead']['fields']['generic_flag'] = array(
+    'name' => 'generic_flag',
+    'type' => 'relate',
+    'source' => 'non-db',
+    'vname' => 'LBL_CXM_GENERAL',
+    'save' => true,
+    'id_name' => 'rt_cxm_email_leads_1rt_cxm_email_ida',
+    'link' => 'rt_cxm_email_leads_1',
+    'table' => 'rt_cxm_email',
+    'module' => 'rt_cxm_email',
+    'rname' => 'gflag',
+);
+$dictionary['Lead']['fields']['facebook_flag'] = array(
+    'name' => 'facebook_flag',
+    'type' => 'relate',
+    'source' => 'non-db',
+    'vname' => 'LBL_CXM_FACEBOOK',
+    'save' => true,
+    'id_name' => 'rt_cxm_email_leads_1rt_cxm_email_ida',
+    'link' => 'rt_cxm_email_leads_1',
+    'table' => 'rt_cxm_email',
+    'module' => 'rt_cxm_email',
+    'rname' => 'fflag',
+);
+$dictionary['Lead']['fields']['google_flag'] = array(
+    'name' => 'google_flag',
+    'type' => 'relate',
+    'source' => 'non-db',
+    'vname' => 'LBL_CXM_GOOGLE',
+    'save' => true,
+    'id_name' => 'rt_cxm_email_leads_1rt_cxm_email_ida',
+    'link' => 'rt_cxm_email_leads_1',
+    'table' => 'rt_cxm_email',
+    'module' => 'rt_cxm_email',
+    'rname' => 'gpflag',
+);
+$dictionary['Lead']['fields']['twitter_flag'] = array(
+    'name' => 'twitter_flag',
+    'type' => 'relate',
+    'source' => 'non-db',
+    'vname' => 'LBL_CXM_TWITTER',
+    'save' => true,
+    'id_name' => 'rt_cxm_email_leads_1rt_cxm_email_ida',
+    'link' => 'rt_cxm_email_leads_1',
+    'table' => 'rt_cxm_email',
+    'module' => 'rt_cxm_email',
+    'rname' => 'tflag',
+);
+$dictionary['Lead']['fields']['linkedin_flag'] = array(
+    'name' => 'linkedin_flag',
+    'type' => 'relate',
+    'source' => 'non-db',
+    'vname' => 'LBL_CXM_LINKEDIN',
+    'save' => true,
+    'id_name' => 'rt_cxm_email_leads_1rt_cxm_email_ida',
+    'link' => 'rt_cxm_email_leads_1',
+    'table' => 'rt_cxm_email',
+    'module' => 'rt_cxm_email',
+    'rname' => 'lflag',
+);

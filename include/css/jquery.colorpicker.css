@@ -1,0 +1,164 @@
+.ui-colorpicker {
+	width: auto; white-space: nowrap; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;
+}
+.ui-colorpicker.ui-dialog {
+	width: auto; white-space: nowrap; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;
+}
+.ui-colorpicker-inline {
+	position: static;
+}
+.ui-colorpicker-buttonset {
+	margin-left: 0.4em; float: left;
+}
+.ui-colorpicker-buttonset .ui-button {
+	margin: 0.5em 0px; cursor: pointer;
+}
+.ui-colorpicker-buttonpane {
+	margin: 0.7em 0px 0px; padding: 0px 0.2em; border-right-color: currentColor; border-bottom-color: currentColor; border-left-color: currentColor; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-style: none; border-bottom-style: none; border-left-style: none; background-image: none;
+}
+.ui-colorpicker-buttonpane button {
+	margin: 0.5em 0.2em 0.4em; padding: 0.2em 0.6em 0.3em; width: auto; overflow: visible; float: right; cursor: pointer;
+}
+.ui-colorpicker-buttonpane button.ui-colorpicker-current {
+	float: left;
+}
+.ui-colorpicker table {
+	margin: 0px; font-size: 100%;
+}
+.ui-colorpicker table td {
+	vertical-align: top;
+}
+.ui-colorpicker-padding-left {
+	padding-left: 10px;
+}
+.ui-colorpicker-padding-top {
+	padding-top: 10px;
+}
+.ui-colorpicker-border {
+	border: 1px inset currentColor; display: inline-block;
+}
+.ui-colorpicker-map > * {
+	position: absolute; cursor: crosshair;
+}
+.ui-colorpicker-bar > * {
+	position: absolute; cursor: crosshair;
+}
+.ui-colorpicker-map-pointer {
+	position: absolute;
+}
+.ui-colorpicker-bar-pointer {
+	position: absolute;
+}
+.ui-colorpicker-map {
+	width: 256px; height: 256px; overflow: hidden; display: block;
+}
+.ui-colorpicker-map > * {
+	width: 256px; height: 256px; overflow: hidden; display: block;
+}
+.ui-colorpicker-map-layer-1 {
+	background: url("../../../modules/rt_maps/tpls/images/map.png") no-repeat;
+}
+.ui-colorpicker-map-layer-2 {
+	background: url("../../../modules/rt_maps/tpls/images/map.png") no-repeat;
+}
+.ui-colorpicker-map-layer-alpha {
+	background: url("../../../modules/rt_maps/tpls/images/map-opacity.png");
+}
+.ui-colorpicker-map-pointer {
+	background: url("../../../modules/rt_maps/tpls/images/map-pointer.png") no-repeat; width: 15px; height: 15px; display: inline-block;
+}
+.ui-colorpicker-bar {
+	width: 20px; height: 256px; overflow: hidden; display: block; background-repeat: repeat-x;
+}
+.ui-colorpicker-bar > * {
+	width: 20px; height: 256px; overflow: hidden; display: block; background-repeat: repeat-x;
+}
+.ui-colorpicker-bar-layer-1 {
+	background: url("../../../modules/rt_maps/tpls/images/bar.png") repeat-x;
+}
+.ui-colorpicker-bar-layer-2 {
+	background: url("../../../modules/rt_maps/tpls/images/bar.png") repeat-x;
+}
+.ui-colorpicker-bar-layer-3 {
+	background: url("../../../modules/rt_maps/tpls/images/bar.png") repeat-x;
+}
+.ui-colorpicker-bar-layer-4 {
+	background: url("../../../modules/rt_maps/tpls/images/bar.png") repeat-x;
+}
+.ui-colorpicker-bar-layer-alpha {
+	background: url("../../../modules/rt_maps/tpls/images/bar-opacity.png");
+}
+.ui-colorpicker-bar-layer-alphabar {
+	background: url("../../../modules/rt_maps/tpls/images/bar-alpha.png");
+}
+.ui-colorpicker-bar-pointer {
+	background: url("../../../modules/rt_maps/tpls/images/bar-pointer.png") no-repeat; width: 20px; height: 7px; display: inline-block;
+}
+.ui-colorpicker-preview {
+	text-align: center;
+}
+.ui-colorpicker-preview-initial {
+	cursor: pointer;
+}
+.ui-colorpicker-preview-initial {
+	width: 50px; height: 20px; display: inline-block;
+}
+.ui-colorpicker-preview-current {
+	width: 50px; height: 20px; display: inline-block;
+}
+.ui-colorpicker-preview-initial-alpha {
+	background: url("../../../modules/rt_maps/tpls/images/preview-opacity.png"); width: 50px; height: 20px; display: inline-block;
+}
+.ui-colorpicker-preview-current-alpha {
+	background: url("../../../modules/rt_maps/tpls/images/preview-opacity.png"); width: 50px; height: 20px; display: inline-block;
+}
+.ui-colorpicker-rgb label {
+	width: 1.5em; display: inline-block;
+}
+.ui-colorpicker-hsv label {
+	width: 1.5em; display: inline-block;
+}
+.ui-colorpicker-hsl label {
+	width: 1.5em; display: inline-block;
+}
+.ui-colorpicker-lab label {
+	width: 1.5em; display: inline-block;
+}
+.ui-colorpicker-cmyk label {
+	width: 1.5em; display: inline-block;
+}
+.ui-colorpicker-alpha label {
+	width: 1.5em; display: inline-block;
+}
+.ui-colorpicker-number {
+	margin: 0.1em; width: 4em;
+}
+.ui-colorpicker-hex {
+	text-align: center;
+}
+.ui-colorpicker-swatches {
+	width: 84px; height: 256px; overflow: auto; background-color: rgb(248, 248, 248);
+}
+.ui-colorpicker-swatch {
+	width: 11px; height: 11px; border-right-color: black; border-bottom-color: black; border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid; float: left; cursor: pointer;
+}
+
+
+
+/* Structural Styles */
+
+.ui-widget-overlay{
+	opacity:0.8 !important;
+	background:#000 !important;
+	position:fixed !important;
+}
+
+.ui-colorpicker-dialog{
+	display:block;
+	width:705px;
+	height:352px;
+	position:fixed;
+	top:50%;
+	left:50%;
+	margin:-176px 0px 0px -352px;
+}

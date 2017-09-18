@@ -1,0 +1,137 @@
+.ui-selectable-helper div {width:auto; height:auto; }
+ -dragging {z-index:9999;}
+
+/* This is new version of CSS created By FN-RT */
+
+
+div.workarea{ padding-top:10px; float:left; margin-right:5px; }
+
+ul.draglist {
+	display:block;
+    position: relative; 
+    list-style: none;
+    margin:0;
+    padding:0;
+	overflow:visible !important;
+	border:none !important;
+	min-height: 283px;
+}
+
+ul.draglist li,
+#ygddfdiv {
+	display:block;
+	font:normal 12px/26px Arial, Helvetica, Sans-sarif;
+	margin:0px;
+	padding:0px 5px;
+    cursor: pointer;
+    zoom: 1;
+	white-space: nowrap;
+}
+ul.draglist li img,
+#ygddfdiv img {
+float:left;
+margin-top:5px;
+margin-right:7px;
+}
+#ygddfdiv{
+height:26px !important;
+}
+
+ul.draglist_alt li {
+    margin: 1px;
+    cursor: move;
+}
+
+.colou_list_options{
+position:absolute;
+z-index:9999;
+right:-4px;
+top:21px;
+background-color:#f2f2f2;
+border:1px solid #ddd;
+}
+
+.colorlist{
+			display:block;
+			position:relative;
+			}
+		/* .colou_list_options{
+			display:none;
+			width:300px;
+			height:200px;
+			position:absolute;
+			z-index:999;
+			left:0px;
+			top:12px;
+			
+			overflow:hidden;
+			border:1px solid #ddd;
+			} */
+		.closelist{
+			display:block;
+			width:115px;
+			line-height:24px;
+			color:#999;
+			background-color:#efefef;
+			border-bottom:1px solid #ccc;
+			/* float:right; */
+			text-align:right;
+			padding-right:10px;
+			}
+
+			.loadingOverlay {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.84);
+    display: block;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+.loadingImage {
+    background: url("../../../modules/rt_maps/images/progress.gif") no-repeat scroll center center #000000;
+    border-radius: 8px 8px 8px 8px;
+    display: block;
+    height: 50px;
+    left: 50%;
+    margin-left: -25px;
+    margin-top: -25px;
+    position: absolute;
+    top: 50%;
+    width: 50px;
+}
+
+
+/*.dd_container
+{
+	width:800px;
+	
+}*/
+
+/*li.list1 {
+    background-color: #D1E6EC;
+    border:1px solid #7EA6B2;
+}*/
+
+/*li.list2 {
+    background-color: #D8D4E2;
+   border:1px solid #6B4C86;
+}*/
+
+
+ul#Accounts_available, ul#Accounts_selected{display:block; /* height:100px; overflow:auto; */}
+
+
+ul#Leads_available, ul#Leads_selected{display:block;/*  height:100px; overflow:auto; */}
+
+ul#Contacts_available, ul#Contacts_selected{display:block; /* height:100px; overflow:auto; */}
+
+ul#cat_available, ul#cat_selected{display:block; height:150px; overflow:auto;}
+
+ul#subcat_available, ul#subcat_selected{display:block; height:200px; overflow:auto;}
+
+
+
+/**/
+

@@ -1,0 +1,60 @@
+/* ---------- BASE ---------- */
+* {margin:0; padding:0; border:none; line-height:normal; outline:none;}
+.left {float:left;}
+.right {float:right;}
+.clear {display:block;clear:both;line-height:0;font-size:0;height:0; width:0;}
+.bold {font-weight:bold;}
+.italic {font-style:italic;}
+.caps {text-transform:uppercase;}
+.underline {text-decoration:underline;}
+.hide{display:none;}
+
+/* --------- FONTS --------- */
+/* -------- GENERAL -------- */
+body {font-size:12px; font-family:Arial, Helvetica, sans-serif;}
+#global {width:975px; margin:0 auto; padding-top:25px;}
+#global #header { height:50px; background-color:#000; position:relative;}
+#global #header .title {font-size:30px; color:#FFF; padding-top:7px; padding-left:10px;}
+#global #header .beta {position:absolute; top:0; left:485px;}
+#global #content {background-color:#fff; padding:10px;}
+#global #footer {height:25px; background-color:#000; text-align:center;}
+#global #footer .copyright {color:#fff; padding-top:5px; font-size:10px;}
+.infos {width:200px; background-color:#ddd; margin-left:10px;}
+.infos .title {font-size:18px; padding-bottom:5px;}
+
+.infos .list_of_plugins {padding:5px;}
+.infos .list_of_plugins ul li {list-style:none;}
+.infos .list_of_plugins ul li a {display:block; padding:2px; margin-bottom:2px; padding-left:10px; background-color:#F2F2F2;color:#5A5A5A; text-decoration:none;}
+.infos .list_of_plugins ul li a:hover {background-color:#E3401D;color:#FCBEB1;}
+.infos .list_of_plugins ul li a.selected {background-color:#E3401D;color:#FCBEB1;}
+.plugin_content {padding-left:25px;width:700px;}
+.plugin_content #loader {visibility:hidden; }
+.plugin_content .content {padding-bottom:10px;}
+.plugin_content .content a {color:#5A5A5A;;}
+.plugin_content .content a:hover {color:#E3401D;}
+.plugin_content .content .title {font-size:25px; padding-bottom:10px;}
+.plugin_content .content .new_windows {padding-bottom:10px; font-size:10px;}
+.plugin_content .content .demo_container { height:280px; border:1px solid #ddd; background-color:#fff; margin-bottom:10px;}
+.plugin_content .content .demo_container #demo_iframe {width:100%; height:100%;}
+.plugin_content .content .code {font-size:10px;}
+.plugin_content .content .code .preview {border:1px solid #ddd; padding-left:10px; color:#5A5A5A; margin-top:10px; overflow:auto; width:688px; height:300px; font-size:11px;}
+.plugin_content .overview {}
+.plugin_content .overview .css-tabs {height:30px; border-bottom:1px solid #ddd;}
+.plugin_content .overview .css-tabs li {float:left;list-style-type:none; width:105px; text-align:center;}
+.plugin_content .overview .css-tabs a {font-size:13px;display:block;padding:5px 0;text-decoration:none;border:1px solid #ddd;border-bottom:0;height:18px;background-color:#F2F2F2;color:#5A5A5A;margin-right:2px;position:relative;top:1px;cursor:pointer;}
+.plugin_content .overview .css-tabs a:hover {background-color:#E3401D;color:#FCBEB1;}
+.plugin_content .overview .css-tabs a.current {background-color:#DDDDDD;border-bottom:2px solid #ddd;color:#000;cursor:pointer;}
+.plugin_content .overview .css-panes .panes {display:none;border:1px solid #ddd;border-top:0;padding:15px 20px;background-color:#DDDDDD;}
+.plugin_content .overview .css-panes .panes .title {font-size:14px; padding-bottom:10px;}
+.plugin_content .overview .css-panes .panes ul li {margin-left:15px; list-style:square; padding-bottom:5px;}
+.plugin_content .overview .css-panes .panes .collapse {padding-left:2px; margin-bottom:5px;}
+.plugin_content .overview .css-panes .panes .collapse.last {margin-bottom:0;}
+.plugin_content .overview .css-panes .panes .collapse .collapse_handler {height:30px;background-color:#F2F2F2;color:#5A5A5A; cursor:pointer;}
+.plugin_content .overview .css-panes .panes .collapse .collapse_handler span.section {display:block; padding-top:7px; float:left; width:210px; padding-right:5px;}
+.plugin_content .overview .css-panes .panes .collapse .collapse_handler span.option {padding-left:10px;}
+.plugin_content .overview .css-panes .panes .collapse .collapse_handler span.type {text-align:center;}
+.plugin_content .overview .css-panes .panes .collapse .collapse_handler span.default {text-align:center;}
+.plugin_content .overview .css-panes .panes .collapse .collapse_handler span.option img {padding-right:5px;}
+.plugin_content .overview .css-panes .panes .collapse .collapse_handler span span.value {color:#000;}
+.plugin_content .overview .css-panes .panes .collapse .text {background-color:#fff; padding:10px; display:none; width:636px; overflow:auto;}
+.plugin_content .overview .css-panes .panes .collapse .text p {padding-bottom:5px;}

@@ -1,0 +1,57 @@
+{{#if isAuthenticated}}
+<div id="popup1" class="overlay hide">
+	<div id="popupc" class="popup hide">
+		<h4 class="dashlet-title">
+		<a data-action="notifier" style="outline: none!important;"><span class="badge rt_cxm_chat">0</span></a>
+		 {{LBL_NOTIFICATIONS}}
+		<a class="close pull-right" data-action="min"><i class="fa fa-minus fa-1x close-icon"></i></a>
+		</h4>
+		<div class="content">
+			<table class="table table-striped headerTable">
+				<tr class="t-head">
+					<th>{{LBL_TRACK_NAME}}</th><th>{{LBL_MESSAGE}}</th>
+					<th>
+						<pre style="margin: auto;    word-wrap: normal;    white-space: initial;    color: #b1afaf;">{{LBL_ACCEPT_REQUESTS}}</pre>
+						<label class="switch">
+							<input type="checkbox" data-action="toggle_active_requests" id="cxmcheckbox" 
+							{{#if isActive}}
+								checked 
+							{{/if}}
+							>
+							<div class="slider round"></div>
+						</label>
+					</th>
+				</tr>
+			</table>
+			<div id="nrt-data-table" class="np-table">
+			<table class="table table-striped inner-table-np">
+				{{#each rt_note_c}}
+					<tr class="data-row t-row">
+						<td id="tdc-{{c}}">
+							{{{namelink}}}
+						</td>
+						<td>
+							{{{message}}}
+						</td>
+						<td>
+							<a class="link-x chat_btn" id="{{cid}}" name="{{name}}" data-action="start_chat">{{btn_value}}</a>
+						</td>
+					</tr>
+				{{/each}}
+			</table>
+			</div>
+			<div id="nconvo">
+			</div>
+		</div>
+		<div class="modaln2 hide">
+			<div class="spinner">
+			  <div class="dot1"></div>
+			  <div class="dot2"></div>
+			</div>
+		</div>
+	</div>
+</div>
+<button data-action="chat" class="btn btn-invisible cmp-chat" aria-label="{{str LBL_CXM_CHAT}}" role="link" type="button">
+    <i class="fa fa-comments icon-comments"></i><span class="action-label"> {{str LBL_CXM_CHAT}} </span>
+</button>
+{{/if}}
