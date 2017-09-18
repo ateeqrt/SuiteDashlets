@@ -65,9 +65,9 @@ $manifest = array (
   'icon' => '',
   'is_uninstallable' => true,
   'name' => 'RTCXMSuite',
-  'published_date' => '2017-09-13 05:19:42',
+  'published_date' => '2017-09-18 10:29:38',
   'type' => 'module',
-  'version' => 1505279982,
+  'version' => 1505730578,
   'remove_tables' => 'prompt',
 );
 

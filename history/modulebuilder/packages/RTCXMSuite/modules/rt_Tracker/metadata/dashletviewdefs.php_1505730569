@@ -30,39 +30,6 @@ $dashletData['rtcxm_rt_TrackerDashlet']['columns'] = array (
     'default' => true,
     'name' => 'date_entered',
   ),
-  'license_key' => 
-  array (
-    'type' => 'varchar',
-    'label' => 'LBL_LICENSE_KEY',
-    'width' => '10%',
-    'default' => true,
-    'name' => 'license_key',
-  ),
-  'track_record' => 
-  array (
-    'type' => 'text',
-    'studio' => 'visible',
-    'label' => 'LBL_TRACK_RECORD',
-    'sortable' => false,
-    'width' => '10%',
-    'default' => true,
-    'name' => 'track_record',
-  ),
-  'email' => 
-  array (
-    'type' => 'varchar',
-    'label' => 'LBL_EMAIL',
-    'width' => '10%',
-    'default' => true,
-  ),
-  'zfid' => 
-  array (
-    'type' => 'varchar',
-    'label' => 'LBL_ZFID',
-    'width' => '10%',
-    'default' => true,
-    'name' => 'zfid',
-  ),
   'date_modified' => 
   array (
     'width' => '15%',
@@ -84,12 +51,34 @@ $dashletData['rtcxm_rt_TrackerDashlet']['columns'] = array (
     'name' => 'assigned_user_name',
     'default' => false,
   ),
+  'license_key' => 
+  array (
+    'type' => 'varchar',
+    'label' => 'LBL_LICENSE_KEY',
+    'width' => '10%',
+    'default' => false,
+  ),
+  'track_record' => 
+  array (
+    'type' => 'text',
+    'studio' => 'visible',
+    'label' => 'LBL_TRACK_RECORD',
+    'sortable' => false,
+    'width' => '10%',
+    'default' => false,
+  ),
+  'zfid' => 
+  array (
+    'type' => 'varchar',
+    'label' => 'LBL_ZFID',
+    'width' => '10%',
+    'default' => false,
+  ),
   'cookie_id' => 
   array (
     'type' => 'varchar',
     'label' => 'LBL_COOKIE_ID',
     'width' => '10%',
     'default' => false,
-    'name' => 'cookie_id',
   ),
 );
